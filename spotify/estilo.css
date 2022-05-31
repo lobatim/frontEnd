@@ -1,0 +1,63 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: purple;
+}
+
+/* inicio da configuração do topo */
+header {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    background-color: black;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+nav ul,
+nav li{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    align-items: center;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-size: 30px;
+}
+a:hover {
+    color: green;
+}
+.borda {
+    height: 5px;
+    border-right: 1px solid white;
+}
+/* Fim da configuração do topo */
+
+.corpo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    width: 1400px;
+    margin-left: 100px;
+}

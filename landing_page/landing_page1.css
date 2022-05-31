@@ -1,0 +1,164 @@
+html {
+    height: 90%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.cabecalho {
+    background: rgb(62,169,245);
+    display: flex;
+    justify-content: space-between;
+}
+
+#button_login {
+    border: 1px solid rgb(243, 239, 180); 
+    width: 56px;
+    height: 28px;
+    text-align: center;
+}
+a {
+    margin: 2%;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover, #Button:hover{
+    color:black;
+    /* border-style: none; */
+    /* Adiciona uma caixa de sombra com 1px para direita 1px para a baixo e com um 
+    blurRadius de 30px com a cor branca*/
+    box-shadow: 0px 0px 10px 5px aquamarine;
+}
+
+#banner {
+    margin:1%;
+}
+
+main {
+    display: flow-root;
+    width: 100%;
+    height: 70%;
+    background: rgb(62,169,245);
+}
+
+.container {
+    text-align: center;
+    min-width: 100%;
+    min-height: 60%;
+}
+.title {
+    margin-top: 2%;
+    color: white;
+    font-size: 45px;
+}
+
+.subtitle {
+    margin-top: 1%;
+    color:white;
+    font-size: 20px;
+}
+
+.name {
+    text-align: center;
+    margin-top: -9%;
+}
+
+.esquerdo {
+    margin-right: 1rem;
+}
+
+/*Caso a imagem tenha um tamanho maximo de 435 remove a margem dos inputs com
+classe .equerdo*/
+@media (max-width:546px) {
+    .esquerdo {
+        margin-right: 0;
+    }
+
+    main {
+        display: flow-root;
+        width: 100%;
+        height: 80%;
+        background: rgb(62,169,245);
+    }
+
+    .name {
+        text-align: center;
+        margin-top: -30%;
+    }
+    .input_select {
+        width: 54%;
+        height: 50px;
+        border-radius: 5px;
+    }
+}
+
+.input{
+    color: dimgrey;
+    margin-bottom: 20px;
+    width: 25%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(62,169,245);
+}
+
+.input:focus , .input_select:focus{
+    border: 1px solid aliceblue;
+    outline: none;
+}
+
+.input_select {
+    background-color: aliceblue;
+    color: dimgrey;
+    width: 52%;
+    height: 50px;
+    border-radius: 5px;
+}
+
+#Button {
+    color: rgb(255,255,255);
+    font-size: large;
+    margin-top: 1%;
+    background-color: rgb(55,105,204);
+    width: 52%;
+    height: 50px;
+    text-decoration: none;
+    border:none;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 1%;
+    width: 100%;
+    height: 50%;
+    background: rgb(254,255,255);;
+}
+
+.rodape_texto {
+    margin-left: 3%;
+    margin-right: 3%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title_rodape {
+    color: black;
+    font-size: 25px;
+    margin-bottom: 2px;
+}
+
+.text {
+    color: rgb(100, 99, 99);
+    min-width: 40%;
+}
+
+.article {
+    flex:1;
+    min-width: 50%;
+    margin-top: 2%;
+}
